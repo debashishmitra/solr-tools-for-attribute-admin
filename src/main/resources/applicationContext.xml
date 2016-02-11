@@ -17,13 +17,13 @@
 
 	<context:component-scan base-package="com.debashish" />
 
-	<jee:jndi-lookup jndi-name="java/ProductServiceDS" id="dataSource" />
+	<jee:jndi-lookup jndi-name="java/AttributeServiceDS" id="dataSource" />
 
 	<bean id="hibernateSessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="mappingResources">
 			<list>
-				<value>product.hbm.xml</value>
+				<value>attribute.hbm.xml</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
