@@ -44,37 +44,38 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.1.0.Final</version>
+			<version>4.3.11.Final</version>
 		</dependency>
+
 
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
 			<artifactId>jersey-container-servlet</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.glassfish.hk2.external</groupId>
-					<artifactId>bean-validator</artifactId>
-				</exclusion>
-				<exclusion>
-					<artifactId>jersey-bean-validation</artifactId>
-					<groupId>org.glassfish.jersey.ext</groupId>
-				</exclusion>
-			</exclusions>
+<!-- 			<exclusions> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>org.glassfish.hk2.external</groupId> -->
+<!-- 					<artifactId>bean-validator</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 				<exclusion> -->
+<!-- 					<artifactId>jersey-bean-validation</artifactId> -->
+<!-- 					<groupId>org.glassfish.jersey.ext</groupId> -->
+<!-- 				</exclusion> -->
+<!-- 			</exclusions> -->
 		</dependency>
 
 		<dependency>
 			<groupId>org.glassfish.jersey.ext</groupId>
 			<artifactId>jersey-spring3</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.glassfish.hk2.external</groupId>
-					<artifactId>bean-validator</artifactId>
-				</exclusion>
-				<exclusion>
-					<artifactId>jersey-bean-validation</artifactId>
-					<groupId>org.glassfish.jersey.ext</groupId>
-				</exclusion>
-			</exclusions>
+<!-- 			<exclusions> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>org.glassfish.hk2.external</groupId> -->
+<!-- 					<artifactId>bean-validator</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 				<exclusion> -->
+<!-- 					<artifactId>jersey-bean-validation</artifactId> -->
+<!-- 					<groupId>org.glassfish.jersey.ext</groupId> -->
+<!-- 				</exclusion> -->
+<!-- 			</exclusions> -->
 		</dependency>
 
 		<dependency>
