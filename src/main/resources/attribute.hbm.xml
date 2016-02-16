@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.debashish.solr.attributes.entities.Attribute"
+		table="EAP_ATTRIBUTE_DEFINITION">
+		<id name="id">
+			<generator class="sequence"></generator>
+			<column name="ATTRIBUTE_DEFINITION_ID" not-null="true">
+
+			</column>
+		</id>
+		<property name=""></property>
+	</class>
+</hibernate-mapping>
