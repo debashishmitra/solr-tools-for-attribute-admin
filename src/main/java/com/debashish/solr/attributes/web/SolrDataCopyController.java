@@ -19,7 +19,7 @@ import com.debashish.solr.attributes.service.SolrDataCopyService;
  */
 @Path("/dataCopy")
 @Controller
-public class SolrDataCopyRestController {
+public class SolrDataCopyController {
 
 	@Autowired
 	private SolrDataCopyService solrDataCopyService;
